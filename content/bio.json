@@ -1,0 +1,39 @@
+{
+  "name": "Novian Affan Ashofah",
+  "handle": "Nvianafn",
+  "role": {
+    "en": "Backend Developer & DevOps Engineer",
+    "id": "Backend Developer & DevOps Engineer"
+  },
+  "tagline": {
+    "en": "I build backend systems and keep them running in production.",
+    "id": "Gua bangun sistem backend dan jaga biar tetap jalan di production."
+  },
+  "bio": {
+    "en": "I design REST APIs, wire up distributed services, and automate deployments with CI/CD on my own VPS. Mostly Laravel and Node, always shipping.",
+    "id": "Gua desain REST API, rangkai layanan terdistribusi, dan otomatisasi deploy pakai CI/CD di VPS sendiri. Kebanyakan Laravel dan Node, selalu ngirim ke production."
+  },
+  "availability": {
+    "en": "Available for work",
+    "id": "Terbuka untuk kerja"
+  },
+  "meta": [
+    { "value": "6+", "label": { "en": "Projects shipped", "id": "Project dirilis" } },
+    { "value": "Backend / DevOps", "label": { "en": "Focus", "id": "Fokus" } },
+    { "value": "Purwokerto, ID", "label": { "en": "Based in", "id": "Domisili" } }
+  ],
+  "statement": {
+    "lead": {
+      "en": "Infrastructure is invisible when it works.",
+      "id": "Infrastruktur nggak keliatan kalau jalan mulus."
+    },
+    "tail": {
+      "en": "That is exactly the point.",
+      "id": "Justru itu tujuannya."
+    },
+    "sub": {
+      "en": "I care about clean APIs, reproducible deploys, and services that recover on their own. The visible part is a website. The real work is everything keeping it up.",
+      "id": "Gua peduli sama API yang rapi, deploy yang bisa diulang, dan layanan yang bisa pulih sendiri. Yang keliatan cuma website. Kerja sebenarnya ada di semua hal yang bikin dia tetap nyala."
+    }
+  }
+}

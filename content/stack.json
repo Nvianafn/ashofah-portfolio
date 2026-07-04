@@ -1,0 +1,34 @@
+[
+  {
+    "key": "languages",
+    "label": { "en": "Languages", "id": "Bahasa" },
+    "items": [
+      { "name": "PHP", "slug": "php" },
+      { "name": "JavaScript", "slug": "javascript" },
+      { "name": "TypeScript", "slug": "typescript" }
+    ]
+  },
+  {
+    "key": "backend",
+    "label": { "en": "Backend & Web", "id": "Backend & Web" },
+    "items": [
+      { "name": "Laravel", "slug": "laravel" },
+      { "name": "Node.js", "slug": "nodedotjs" },
+      { "name": "Express", "slug": "express" },
+      { "name": "Next.js", "slug": "nextdotjs" },
+      { "name": "MySQL", "slug": "mysql" }
+    ]
+  },
+  {
+    "key": "devops",
+    "label": { "en": "DevOps & Infra", "id": "DevOps & Infra" },
+    "items": [
+      { "name": "Linux", "slug": "linux" },
+      { "name": "Nginx", "slug": "nginx" },
+      { "name": "PM2", "slug": "pm2" },
+      { "name": "Docker", "slug": "docker" },
+      { "name": "GitHub Actions", "slug": "githubactions" },
+      { "name": "Git", "slug": "git" }
+    ]
+  }
+]

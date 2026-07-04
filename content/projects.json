@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "yasu-project",
+    "name": "YASU Project",
+    "featured": true,
+    "status": "live",
+    "desc": {
+      "en": "A full-stack platform built with Next.js on the front and a Node.js API on the back.",
+      "id": "Platform full-stack pakai Next.js di depan dan API Node.js di belakang."
+    },
+    "tech": ["Next.js", "Node.js", "REST API"],
+    "live": "https://yasu-project.com",
+    "repo": "https://github.com/Nvianafn"
+  },
+  {
+    "slug": "genbi-purwokerto",
+    "name": "GenBI Purwokerto API",
+    "featured": false,
+    "status": "done",
+    "desc": {
+      "en": "REST API development for the GenBI Purwokerto organization website.",
+      "id": "Pengembangan REST API untuk website organisasi GenBI Purwokerto."
+    },
+    "tech": ["Laravel", "MySQL", "REST API"],
+    "live": "",
+    "repo": "https://github.com/Nvianafn"
+  },
+  {
+    "slug": "kkn97-semali",
+    "name": "KKN 97 Semali",
+    "featured": false,
+    "status": "live",
+    "desc": {
+      "en": "Village KKN website shipped with a full CI/CD deployment pipeline.",
+      "id": "Website KKN desa yang dirilis dengan pipeline deploy CI/CD."
+    },
+    "tech": ["Next.js", "CI/CD", "GitHub Actions"],
+    "live": "https://kkn97semali.web.id",
+    "repo": "https://github.com/Nvianafn"
+  },
+  {
+    "slug": "rowokele112",
+    "name": "Rowokele 112",
+    "featured": false,
+    "status": "live",
+    "desc": {
+      "en": "Community website self-hosted and deployed on my own VPS.",
+      "id": "Website komunitas yang gua deploy sendiri di VPS."
+    },
+    "tech": ["Nginx", "PM2", "Linux"],
+    "live": "https://rowokele112.web.id",
+    "repo": "https://github.com/Nvianafn"
+  },
+  {
+    "slug": "pmii-saintek",
+    "name": "PMII Rayon Saintek",
+    "featured": false,
+    "status": "wip",
+    "desc": {
+      "en": "Organization website for PMII Rayon Saintek. Currently in progress.",
+      "id": "Website organisasi PMII Rayon Saintek. Lagi dikerjain sekarang."
+    },
+    "tech": ["Laravel", "MySQL"],
+    "live": "",
+    "repo": "https://github.com/Nvianafn"
+  },
+  {
+    "slug": "simpus",
+    "name": "SIMPUS Distributed System",
+    "featured": true,
+    "status": "done",
+    "desc": {
+      "en": "A university project: a distributed system of 4 separate websites exchanging data over REST APIs.",
+      "id": "Project kuliah: sistem terdistribusi berisi 4 website berbeda yang saling tukar data lewat REST API."
+    },
+    "tech": ["Laravel", "REST API", "MySQL"],
+    "live": "",
+    "repo": "https://github.com/Nvianafn"
+  }
+]
