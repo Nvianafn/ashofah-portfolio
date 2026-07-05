@@ -15,6 +15,7 @@ export type Project = {
   tech: string[];
   live: string;
   repo: string;
+  images?: string[];
 };
 
 export type StackGroup = {

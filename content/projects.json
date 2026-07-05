@@ -10,7 +10,12 @@
     },
     "tech": ["Next.js", "Node.js", "REST API"],
     "live": "https://yasu-project.com",
-    "repo": "https://github.com/Nvianafn"
+    "repo": "https://github.com/Nvianafn",
+    "images": [
+      "/projects/yasu-project-1.png",
+      "/projects/yasu-project-2.png",
+      "/projects/yasu-project-3.png"
+    ]
   },
   {
     "slug": "genbi-purwokerto",
@@ -23,7 +28,12 @@
     },
     "tech": ["Laravel", "MySQL", "REST API"],
     "live": "",
-    "repo": "https://github.com/Nvianafn"
+    "repo": "https://github.com/Nvianafn",
+    "images": [
+      "/projects/genbi-purwokerto-1.png",
+      "/projects/genbi-purwokerto-2.png",
+      "/projects/genbi-purwokerto-3.png"
+    ]
   },
   {
     "slug": "kkn97-semali",
@@ -36,7 +46,12 @@
     },
     "tech": ["Next.js", "CI/CD", "GitHub Actions"],
     "live": "https://kkn97semali.web.id",
-    "repo": "https://github.com/Nvianafn"
+    "repo": "https://github.com/Nvianafn",
+    "images": [
+      "/projects/kkn97-semali-1.png",
+      "/projects/kkn97-semali-2.png",
+      "/projects/kkn97-semali-3.png"
+    ]
   },
   {
     "slug": "rowokele112",
@@ -49,7 +64,12 @@
     },
     "tech": ["Nginx", "PM2", "Linux"],
     "live": "https://rowokele112.web.id",
-    "repo": "https://github.com/Nvianafn"
+    "repo": "https://github.com/Nvianafn",
+    "images": [
+      "/projects/rowokele112-1.png",
+      "/projects/rowokele112-2.png",
+      "/projects/rowokele112-3.png"
+    ]
   },
   {
     "slug": "pmii-saintek",
@@ -62,7 +82,12 @@
     },
     "tech": ["Laravel", "MySQL"],
     "live": "",
-    "repo": "https://github.com/Nvianafn"
+    "repo": "https://github.com/Nvianafn",
+    "images": [
+      "/projects/pmii-saintek-1.png",
+      "/projects/pmii-saintek-2.png",
+      "/projects/pmii-saintek-3.png"
+    ]
   },
   {
     "slug": "simpus",
@@ -75,6 +100,11 @@
     },
     "tech": ["Laravel", "REST API", "MySQL"],
     "live": "",
-    "repo": "https://github.com/Nvianafn"
+    "repo": "https://github.com/Nvianafn",
+    "images": [
+      "/projects/simpus-1.png",
+      "/projects/simpus-2.png",
+      "/projects/simpus-3.png"
+    ]
   }
 ]

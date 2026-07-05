@@ -31,6 +31,8 @@ export const UI: Record<Lang, Strings> = {
     inProgress: "in progress",
     shipped: "shipped",
     live: "live",
+    techUsed: "Tech used",
+    preview: "open preview",
   },
   id: {
     "nav.about": "about",
@@ -57,6 +59,8 @@ export const UI: Record<Lang, Strings> = {
     inProgress: "progres",
     shipped: "shipped",
     live: "live",
+    techUsed: "Tech yang dipakai",
+    preview: "buka preview",
   },
 };
 
