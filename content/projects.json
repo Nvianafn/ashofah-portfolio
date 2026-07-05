@@ -12,9 +12,9 @@
     "live": "https://yasu-project.com",
     "repo": "https://github.com/Nvianafn",
     "images": [
-      "/projects/yasu-project-1.png",
-      "/projects/yasu-project-2.png",
-      "/projects/yasu-project-3.png"
+      "/projects/yasu-project-1.webp",
+      "/projects/yasu-project-2.webp",
+      "/projects/yasu-project-3.webp"
     ]
   },
   {
@@ -30,9 +30,9 @@
     "live": "",
     "repo": "https://github.com/Nvianafn",
     "images": [
-      "/projects/genbi-purwokerto-1.png",
-      "/projects/genbi-purwokerto-2.png",
-      "/projects/genbi-purwokerto-3.png"
+      "/projects/genbi-purwokerto-1.webp",
+      "/projects/genbi-purwokerto-2.webp",
+      "/projects/genbi-purwokerto-3.webp"
     ]
   },
   {
@@ -48,9 +48,9 @@
     "live": "https://kkn97semali.web.id",
     "repo": "https://github.com/Nvianafn",
     "images": [
-      "/projects/kkn97-semali-1.png",
-      "/projects/kkn97-semali-2.png",
-      "/projects/kkn97-semali-3.png"
+      "/projects/kkn97-semali-1.webp",
+      "/projects/kkn97-semali-2.webp",
+      "/projects/kkn97-semali-3.webp"
     ]
   },
   {
@@ -66,9 +66,9 @@
     "live": "https://rowokele112.web.id",
     "repo": "https://github.com/Nvianafn",
     "images": [
-      "/projects/rowokele112-1.png",
-      "/projects/rowokele112-2.png",
-      "/projects/rowokele112-3.png"
+      "/projects/rowokele112-1.webp",
+      "/projects/rowokele112-2.webp",
+      "/projects/rowokele112-3.webp"
     ]
   },
   {
@@ -84,9 +84,9 @@
     "live": "",
     "repo": "https://github.com/Nvianafn",
     "images": [
-      "/projects/pmii-saintek-1.png",
-      "/projects/pmii-saintek-2.png",
-      "/projects/pmii-saintek-3.png"
+      "/projects/pmii-saintek-1.webp",
+      "/projects/pmii-saintek-2.webp",
+      "/projects/pmii-saintek-3.webp"
     ]
   },
   {
@@ -102,9 +102,9 @@
     "live": "",
     "repo": "https://github.com/Nvianafn",
     "images": [
-      "/projects/simpus-1.png",
-      "/projects/simpus-2.png",
-      "/projects/simpus-3.png"
+      "/projects/simpus-1.webp",
+      "/projects/simpus-2.webp",
+      "/projects/simpus-3.webp"
     ]
   }
 ]
