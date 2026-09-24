@@ -1,6 +1,7 @@
 "use client";
 
-import { FormEvent, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import type { FormEvent } from "react";
 import { useI18n } from "@/lib/i18n";
 import { BIO, L, PROJECTS, SOCIALS, STACK } from "@/lib/content";
 
