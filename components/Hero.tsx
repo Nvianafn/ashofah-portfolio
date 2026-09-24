@@ -3,14 +3,10 @@
 import { useI18n } from "@/lib/i18n";
 import { BIO, L } from "@/lib/content";
 import { Terminal } from "./Terminal";
-import { Chevron } from "./Icon";
 
 export function Hero() {
-  const { t, lang } = useI18n();
-  const name = BIO.name as string;
-  const lastSpace = name.lastIndexOf(" ");
-  const first = lastSpace > -1 ? name.slice(0, lastSpace) : name;
-  const last = lastSpace > -1 ? name.slice(lastSpace + 1) : "";
+  const { lang, t } = useI18n();
+  const firstName = String(BIO.name).split(" ")[0];
 
   return (
     <section className="hero" id="about">
@@ -21,32 +17,43 @@ export function Hero() {
             <span>{L(BIO.role, lang)}</span>
           </div>
           <h1>
-            {first} <span className="grad">{last}</span>
+            <span className="hero-hello">{lang === "id" ? "Hai, gue" : "Hey, I’m"}</span>
+            <span className="hero-name">{firstName}<span className="hero-dot">.</span></span>
           </h1>
           <p className="hero-bio">{L(BIO.bio, lang)}</p>
           <div className="hero-cta">
-            <a className="btn btn-primary" href="#contact">
-              {t("cta.hire")}
+            <a className="btn btn-primary" href="#projects">
+              {t("cta.work")} <span aria-hidden="true">↗</span>
             </a>
-            <a className="btn" href="#projects">
-              {t("cta.work")}
+            <a className="btn" href="#contact">
+              {t("cta.hire")}
             </a>
           </div>
           <div className="hero-meta">
-            {(BIO.meta as any[]).map((m, i) => (
-              <span key={i}>
-                <b>{m.value}</b>
-                <br />
-                {L(m.label, lang)}
-              </span>
+            {(BIO.meta as { value: string; label: { en: string; id: string } }[]).map((m) => (
+              <span key={m.value}><b>{m.value}</b> · {L(m.label, lang)}</span>
             ))}
           </div>
         </div>
-        <Terminal />
+
+        <div className="hero-aside">
+          <div className="hero-scene" aria-hidden="true">
+            <span className="float-star">✳</span>
+            <span className="float-note one">build → ship → repeat</span>
+            <div className="hero-orbit">
+              <div className="hero-core">NA</div>
+            </div>
+            <span className="float-note two">status: shipping ✦</span>
+          </div>
+          <div className="hero-terminal">
+            <div className="term-intro">
+              <span><strong>{t("terminal.title")}</strong> · {t("terminal.subtitle")}</span>
+              <span className="term-live">{t("terminal.live")}</span>
+            </div>
+            <Terminal />
+          </div>
+        </div>
       </div>
-      <a className="scroll-hint" href="#statement" aria-label="Scroll down">
-        <Chevron />
-      </a>
     </section>
   );
 }
